@@ -3,12 +3,12 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #f15946;
+  background: #cc7080;
   transition: 0.4s ease-in-out;
 }
 
@@ -20,6 +20,15 @@ body,
   margin: 0;
   padding: 0;
   overflow: hidden;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .scrollArea {
@@ -118,5 +127,5 @@ header {
 
 .loading-bar {
   height: 32px;
-  background: #f15946;
+  background: #cc7080;
 }
