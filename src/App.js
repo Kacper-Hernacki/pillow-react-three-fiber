@@ -1,20 +1,12 @@
-import React, { useRef, useEffect, useState, Suspense } from 'react';
+import React, { useRef, Suspense } from 'react';
 import './App.scss';
 //Components
-import Header from './components/header';
-import { Section } from './components/section';
 
-// Page State
-import state from './components/state';
+import { Section } from './components/section';
 
 // R3F
 import { Canvas, useFrame } from 'react-three-fiber';
-import { Html, useProgress, useGLTFLoader } from 'drei';
-
-// React Spring
-import { a, useTransition } from '@react-spring/web';
-//Intersection Observer
-import { useInView } from 'react-intersection-observer';
+import { Html, useGLTFLoader } from 'drei';
 
 function Model({ url }) {
   const gltf = useGLTFLoader('/pillow.gltf', true);
@@ -53,7 +45,7 @@ const HTMLContent = () => {
   return (
     <Section factor={1.5} offset={1}>
       <group position={[0, 21, 0]}>
-        <mesh ref={ref} position={[0, 0, 0]}>
+        <mesh ref={ref} position={[0, 0, 4]}>
           <Model />
         </mesh>
         <Html fullscreen>
