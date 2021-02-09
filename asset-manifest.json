@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pillow-react-three-fiber/static/css/main.8c3df7e3.chunk.css",
+    "main.js": "/pillow-react-three-fiber/static/js/main.d7357165.chunk.js",
+    "main.js.map": "/pillow-react-three-fiber/static/js/main.d7357165.chunk.js.map",
+    "runtime-main.js": "/pillow-react-three-fiber/static/js/runtime-main.a35176b7.js",
+    "runtime-main.js.map": "/pillow-react-three-fiber/static/js/runtime-main.a35176b7.js.map",
+    "static/js/2.d8a6850d.chunk.js": "/pillow-react-three-fiber/static/js/2.d8a6850d.chunk.js",
+    "static/js/2.d8a6850d.chunk.js.map": "/pillow-react-three-fiber/static/js/2.d8a6850d.chunk.js.map",
+    "index.html": "/pillow-react-three-fiber/index.html",
+    "precache-manifest.82f3fece2f9b52e6d41e1c374a306828.js": "/pillow-react-three-fiber/precache-manifest.82f3fece2f9b52e6d41e1c374a306828.js",
+    "service-worker.js": "/pillow-react-three-fiber/service-worker.js",
+    "static/css/main.8c3df7e3.chunk.css.map": "/pillow-react-three-fiber/static/css/main.8c3df7e3.chunk.css.map",
+    "static/js/2.d8a6850d.chunk.js.LICENSE.txt": "/pillow-react-three-fiber/static/js/2.d8a6850d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a35176b7.js",
+    "static/js/2.d8a6850d.chunk.js",
+    "static/css/main.8c3df7e3.chunk.css",
+    "static/js/main.d7357165.chunk.js"
+  ]
+}
